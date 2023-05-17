@@ -17,6 +17,64 @@ This algorithm is implemented by using a heuristic function that calculates the 
 
 ##### A* Manhattan Distance Heuristic:
 This algorithm is implemented by using a heuristic function that calculates the Manhattan distance between positions misplaced elements in current state compared to goal state. Distance is calculated and passed to general_search, which adds the heuristic value to the node. Based on heuristic value the nodes are prioritized  in the heap queue.
+
+
+
+#### OUTPUT:
+##### UCS:
+
+<!-- ![Depth 2](/Output/depth2_ucs.png) -->
+<p align="center">
+  <img src="Output/depth2_ucs.png" alt="Depth 2" width="400" height="200" />
+  <img src="Output/depth8_ucs.png" alt="Depth 8" width="400" height="195" />
+
+<div align="center">
+  <em>Depth 2</em>
+  <em style="margin-left: 70px;">Depth 8</em>
+</div>
+</p>
+
+<p align="center">
+  <img src="Output/depth16_ucs.png" alt="Depth 16" width="400" height="200" />
+</div>
+</p>
+
+##### A* Misplaced Tiles Heuristic:
+<p align="center">
+  <img src="Output/depth2_AMis.png" alt="Depth 16" width="400" height="200" />
+  <img src="Output/depth8_AMis.png" alt="Depth 2" width="400" height="195" />
+<div align="center">
+  <em>Depth 2</em>
+  <em style="margin-left: 70px;">Depth 8</em>
+</div>
+</p>
+<p align="center">
+  <img src="Output/depth_12_AMis.png" alt="Depth 16" width="400" height="200" />
+  <img src="Output/depth24_AMis.png" alt="Depth 2" width="400" height="195" />
+<div align="center">
+  <em>Depth 12</em>
+  <em style="margin-left: 70px;">Depth 24</em>
+</div>
+</p>
+
+##### A* Manhattan Distance Heuristic:
+<p align="center">
+  <img src="Output/depth2_AMAN.png" alt="Depth 16" width="400" height="200" />
+  <img src="Output/depth8_AMAN.png" alt="Depth 2" width="400" height="195" />
+<div align="center">
+  <em>Depth 2</em>
+  <em style="margin-left: 70px;">Depth 8</em>
+</div>
+</p>
+<p align="center">
+  <img src="Output/depth16_AMAN.png" alt="Depth 16" width="400" height="200" />
+  <img src="Output/depth24_AMAN.png" alt="Depth 2" width="400" height="195" />
+<div align="center">
+  <em>Depth 16</em>
+  <em style="margin-left: 70px;">Depth 24</em>
+</div>
+</p>
+
 #### References:
 [1] Numpy - https://numpy.org/devdocs/user/index.html
 [2] HeapQ - https://docs.python.org/3/library/heapq.html
